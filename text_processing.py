@@ -38,7 +38,7 @@ def normalize(input_string):
     for e in input_string:
         if e == ' ' and normalized_string[-1] == ' ':
             continue
-        normalized_string += c
+        normalized_string += e
     return normalized_string
 
 
